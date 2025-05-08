@@ -28,7 +28,7 @@ function App() {
           custom={0}
         >
           <img
-            src="src/assets/Profile.jpg" // Profile image path
+            src="Profile.jpg" // Profile image path
             alt="Dharaneesh"
             className="profile-pic"
           />
@@ -71,22 +71,22 @@ function App() {
             {
               title: "Jump Over Game",
               description: "Jump Over is an exciting and engaging puzzle-platformer game where players must navigate a character through various obstacles by making precise jumps. The main objective is to leap over barriers, gaps, or other hurdles to reach the goal while collecting points or rewards along the way.",
-              imgSrc: "src/assets/s1.jpg", // Path to project image
+              imgSrc: "s1.jpg", // Path to project image
             },
             {
               title: "AR Anatomy Scanner | Unity",
               description: "Developed an AR/VR project using Unity for school students, enabling object scanning to visualize anatomical structures and enhance learning through interactive 3D models",
-              imgSrc: "src/assets/s2.jpeg", // Path to project image
+              imgSrc: "s2.jpeg", // Path to project image
             },
             {
               title: "AR Game | Unity",
               description: "Developed an interactive AR/VR Talking Tom game using Unity and C#, allowing users to engage with a virtual pet in an immersive environment.",
-              imgSrc: "src/assets/s3.jpeg", // Path to project image
+              imgSrc: "s3.jpeg", // Path to project image
             },
             {
               title: "Fitness Tracker | MERN Stack",
               description: "Developed a full-stack fitness tracker website using MongoDB, Express.js, React, and Node.js, enabling users to log workouts, track progress, and manage fitness goals efficiently.",
-              imgSrc: "src/assets/s4.jpeg", // Path to project image
+              imgSrc: "s4.jpeg", // Path to project image
             },
           ].map((project, i) => (
             <motion.div
